@@ -67,3 +67,5 @@ python manage.py createsuperuser
 # Create pages app
 python manage.py startapp pages
 ```
+
+[Source](https://is.gd/4iazV1)
