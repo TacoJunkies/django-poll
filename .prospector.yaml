@@ -29,6 +29,9 @@ pep8:
         - E123
         # - E265
         - N812
+        # Line too long
+        - E501
+
     options:
         max-line-lenght: 79
 
@@ -41,5 +44,6 @@ pylint:
         - logging-fstring-interpolation
         - relative-beyond-top-level
         - too-few-public-methods
+        - line-too-long
     options:
         max-line-lenghth: 79
